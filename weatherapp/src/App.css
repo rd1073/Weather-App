@@ -1,5 +1,7 @@
 .App {
   background-color: azure;
+  background-repeat: repeat;
+  background-size: cover;
 }
 
  
