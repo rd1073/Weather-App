@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 
 const Weathercards = () => {
   return (
-    <div style={{ margin: '0 20px', display: 'grid' ,gridTemplateColumns: 'repeat(6, 1fr)', gap: '22px', marginTop: 70, marginX: 'auto' }}>
+    <div style={{ marginRight:'34 px', display: 'grid' ,gridTemplateColumns: 'repeat(6, 1fr)', gap: '22px', marginTop: 70, marginX: 'auto' }}>
 
       <Card sx={{ minWidth: 275, backgroundColor: '#e0e0e0'}}>
         
@@ -44,11 +44,16 @@ const Weathercards = () => {
       <WbSunnyOutlinedIcon sx={{ fontSize: 56 /* Adjust the size as needed */ }} />
     </Box>
         
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
+    <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', textAlign: 'center', marginTop: '30px', gap: '22px'}}>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+
+        
+      </Box>
         </CardContent>
         </Card>
         
@@ -64,15 +69,16 @@ const Weathercards = () => {
       <WbSunnyOutlinedIcon sx={{ fontSize: 56 /* Adjust the size as needed */ }} />
     </Box>
         
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-          </Typography>
+    <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', textAlign: 'center', marginTop: '30px', gap: '22px'}}>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+
         
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
+      </Box>
         </CardContent>
         </Card><Card sx={{ minWidth: 275, backgroundColor: '#e0e0e0'}}>
         
@@ -86,15 +92,16 @@ const Weathercards = () => {
       <WbSunnyOutlinedIcon sx={{ fontSize: 56 /* Adjust the size as needed */ }} />
     </Box>
         
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-          </Typography>
+    <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', textAlign: 'center', marginTop: '30px', gap: '22px'}}>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+
         
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
+      </Box>
         </CardContent>
         </Card><Card sx={{ minWidth: 275, backgroundColor: '#e0e0e0'}}>
         
@@ -108,15 +115,16 @@ const Weathercards = () => {
       <WbSunnyOutlinedIcon sx={{ fontSize: 56 /* Adjust the size as needed */ }} />
     </Box>
         
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-          </Typography>
+    <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', textAlign: 'center', marginTop: '30px', gap: '22px'}}>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+
         
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
+      </Box>
         </CardContent>
         </Card><Card sx={{ minWidth: 275, backgroundColor: '#e0e0e0'}}>
         
@@ -130,15 +138,16 @@ const Weathercards = () => {
       <WbSunnyOutlinedIcon sx={{ fontSize: 56 /* Adjust the size as needed */ }} />
     </Box>
         
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-          </Typography>
+    <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', textAlign: 'center', marginTop: '30px', gap: '22px'}}>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+
         
-          <Typography variant="body2">
-            well meaning and kindly.
-            <br />
-            {'"a benevolent smile"'}
-          </Typography>
+      </Box>
         </CardContent>
         </Card>
 
