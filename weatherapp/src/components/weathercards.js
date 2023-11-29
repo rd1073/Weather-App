@@ -17,18 +17,23 @@ const Weathercards = () => {
         <CardContent>
         
           <Typography sx={{ fontSize: 14 }} color="text.secondary" textAlign={'center'} gutterBottom>
-            Word of the Day
-          </Typography>
-        
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            adjective
-          </Typography>
-        
-          <Typography variant="body2">
-            well meaning and kindly.
             <br />
-            {'"a benevolent smile"'}
           </Typography>
+        
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop:2}}>
+      <br />
+    </Box>
+        
+    <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', textAlign: 'center', marginTop: '70px', gap: '22px'}}>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+        <Typography>1</Typography>
+
+        
+      </Box>
         </CardContent>
         </Card>
 
