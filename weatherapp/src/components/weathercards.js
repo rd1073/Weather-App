@@ -25,12 +25,12 @@ const Weathercards = () => {
     </Box>
         
     <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(1, 1fr)', textAlign: 'center', marginTop: '70px', gap: '22px'}}>
-        <Typography>1</Typography>
-        <Typography>1</Typography>
-        <Typography>1</Typography>
-        <Typography>1</Typography>
-        <Typography>1</Typography>
-        <Typography>1</Typography>
+        <Typography>High Temperature</Typography>
+        <Typography>Low Temperature</Typography>
+        <Typography>Humidity</Typography>
+        <Typography>Sunrise Time</Typography>
+        <Typography>Sunset Time</Typography>
+        
 
         
       </Box>

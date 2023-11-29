@@ -10,6 +10,9 @@ function App() {
        <Navbar />
        <City />
        <Weathercards />
+
+
+       
     </div>
   );
 }
